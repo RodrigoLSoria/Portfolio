@@ -16,8 +16,17 @@ const Projects = ({ language }) => {
                         </Col>
                     </Row>
                     <Row className='justify-content-evenly mt-2 mb-4' role="list">
-                        <Col xs='10' lg='5' className='projects-card-mini text-center mt-3' role="listitem">
+                        {/* <Col xs='10' lg='5' className='projects-card-mini text-center mt-3' role="listitem">
                             <h4>GREENLET</h4>
+                            <a href="https://compirooms.netlify.app/" target="_blank">
+                                <img src="https://res.cloudinary.com/dbtmrinwa/image/upload/t_mini3/czuemis1mfinxmuhgpbs.jpg" alt="COMPI ROOMS Project screenshot" role="img" aria-label="COMPI ROOMS Project Screenshot" loading="lazy" />
+                            </a>
+                            <h4>{language === 'ENG' ? 'Developed with:' : 'Desarrollado con:'}</h4>
+                            <h5>ExpressJS - MongoDB</h5>
+                            <h5>ReactJS - NodeJS</h5>
+                        </Col> */}
+                        <Col xs='10' lg='5' className='projects-card-mini text-center mt-3' role="listitem">
+                            <h4>COMPI ROOMS</h4>
                             <a href="https://compirooms.netlify.app/" target="_blank">
                                 <img src="https://res.cloudinary.com/dbtmrinwa/image/upload/t_mini3/czuemis1mfinxmuhgpbs.jpg" alt="COMPI ROOMS Project screenshot" role="img" aria-label="COMPI ROOMS Project Screenshot" loading="lazy" />
                             </a>
@@ -34,18 +43,9 @@ const Projects = ({ language }) => {
                             <h5>VueJS</h5>
                         </Col>
                         <Col xs='10' lg='5' className='projects-card-mini text-center mt-3' role="listitem">
-                            <h4>COMPI ROOMS</h4>
-                            <a href="https://compirooms.netlify.app/" target="_blank">
-                                <img src="https://res.cloudinary.com/dbtmrinwa/image/upload/t_mini3/czuemis1mfinxmuhgpbs.jpg" alt="COMPI ROOMS Project screenshot" role="img" aria-label="COMPI ROOMS Project Screenshot" loading="lazy" />
-                            </a>
-                            <h4>{language === 'ENG' ? 'Developed with:' : 'Desarrollado con:'}</h4>
-                            <h5>ExpressJS - MongoDB</h5>
-                            <h5>ReactJS - NodeJS</h5>
-                        </Col>
-                        <Col xs='10' lg='5' className='projects-card-mini text-center mt-3' role="listitem">
                             <h4>Q+ CREATIVES</h4>
-                            <a href="https://compirooms.netlify.app/" target="_blank">
-                                <img src="https://res.cloudinary.com/dbtmrinwa/image/upload/t_mini3/czuemis1mfinxmuhgpbs.jpg" alt="COMPI ROOMS Project screenshot" role="img" aria-label="COMPI ROOMS Project Screenshot" loading="lazy" />
+                            <a href="https://creativesqplus.netlify.app/" target="_blank">
+                                <img src="https://res.cloudinary.com/depxadgb3/image/upload/v1702501244/Captura_de_pantalla_2023-12-13_213208_buczlc.png" alt="COMPI ROOMS Project screenshot" role="img" aria-label="COMPI ROOMS Project Screenshot" loading="lazy" />
                             </a>
                             <h4>{language === 'ENG' ? 'Developed with:' : 'Desarrollado con:'}</h4>
                             <h5>ExpressJS - MongoDB</h5>

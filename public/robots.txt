@@ -3,4 +3,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://reche.com/sitemap.xml
+Sitemap: https://rodrigolsoria.netlify.app/sitemap.xml
