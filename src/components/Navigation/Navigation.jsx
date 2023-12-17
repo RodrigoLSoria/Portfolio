@@ -65,7 +65,7 @@ const Navigation = ({ language, setLanguage }) => {
                 </Col>
                 <Col xs='2' lg='1' className='nav-language d-flex align-items-center justify-content-center' >
                     <Link style={{ textDecoration: 'none', fontSize: '0.9em', color: '#C490D1' }} onClick={language === 'ENG' ? (() => handleLanguageEspClick()) : (() => handleLanguageEngClick())} role="button">
-                        {language === 'ENG' ? 'SPA' : 'ENG'}
+                        {language === 'ENG' ? 'ESP' : 'ENG'}
                     </Link>
                 </Col>
             </Row>

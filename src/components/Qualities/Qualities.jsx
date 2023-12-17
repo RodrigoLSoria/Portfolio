@@ -13,7 +13,7 @@ const Qualities = ({ language }) => {
                     <Row className='qualities-title justify-content-center'>
                         <Col xs='12' lg='12' className='qualities-title-bottom text-center'>
                             <h2 role="heading" aria-level="1">
-                                {language === 'ENG' ? 'This are my top ' : 'Estas son mis mejores '}
+                                {language === 'ENG' ? 'These are my top ' : 'Estas son mis mejores '}
                                 <span>{language === 'ENG' ? 'qualities' : 'cualidades'}</span>
                             </h2>
                         </Col>
