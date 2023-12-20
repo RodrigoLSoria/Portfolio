@@ -16,15 +16,33 @@ const Projects = ({ language }) => {
                         </Col>
                     </Row>
                     <Row className='justify-content-evenly mt-2 mb-4' role="list">
-                        {/* <Col xs='10' lg='5' className='projects-card-mini text-center mt-3' role="listitem">
+
+                        <Col xs='10' lg='5' className='projects-card-mini text-center mt-3' role="listitem">
                             <h4>GREENLET</h4>
-                            <a href="https://compirooms.netlify.app/" target="_blank">
-                                <img src="https://res.cloudinary.com/dbtmrinwa/image/upload/t_mini3/czuemis1mfinxmuhgpbs.jpg" alt="COMPI ROOMS Project screenshot" role="img" aria-label="COMPI ROOMS Project Screenshot" loading="lazy" />
+                            <a href="https://greenlet.netlify.app/" target="_blank">
+                                <img src="https://res.cloudinary.com/depxadgb3/image/upload/v1702501244/Captura_de_pantalla_2023-12-10_224905_mfnpoy.png" alt="Greenlet Project screenshot" role="img" aria-label="Greenlet Project Screenshot" loading="lazy" />
                             </a>
                             <h4>{language === 'ENG' ? 'Developed with:' : 'Desarrollado con:'}</h4>
                             <h5>ExpressJS - MongoDB</h5>
                             <h5>ReactJS - NodeJS</h5>
-                        </Col> */}
+                        </Col>
+                        <Col xs='10' lg='5' className='projects-card-mini text-center mt-3 happycode-container' role="listitem">
+                            <h4>HAPPYCODE</h4>
+                            <a href="https://happycodev.com" target="_blank">
+                                <img src="https://res.cloudinary.com/dbtmrinwa/image/upload/f_auto,q_auto/syptbzlmriyzea0osmad" alt="HAPPYCODE Project screenshot" role="img" aria-label="HAPPYCODE Project Screenshot" loading="lazy" />
+                            </a>
+                            <h4>{language === 'ENG' ? 'Developed with:' : 'Desarrollado con:'}</h4>
+                            <h5>ReactJS - SASS</h5>
+                        </Col>
+                        <Col xs='10' lg='5' className='projects-card-mini text-center mt-3' role="listitem">
+                            <h4>Q+ CREATIVES</h4>
+                            <a href="https://creativesqplus.netlify.app/" target="_blank">
+                                <img src="https://res.cloudinary.com/depxadgb3/image/upload/v1702501244/Captura_de_pantalla_2023-12-13_213208_buczlc.png" alt="Q+ Creatives Project screenshot" role="img" aria-label="Q+ Creatives Project Screenshot" loading="lazy" />
+                            </a>
+                            <h4>{language === 'ENG' ? 'Developed with:' : 'Desarrollado con:'}</h4>
+                            <h5>ExpressJS - MongoDB</h5>
+                            <h5>ReactJS - NodeJS</h5>
+                        </Col>
                         <Col xs='10' lg='5' className='projects-card-mini text-center mt-3' role="listitem">
                             <h4>COMPI ROOMS</h4>
                             <a href="https://compirooms.netlify.app/" target="_blank">
@@ -43,23 +61,6 @@ const Projects = ({ language }) => {
                             <h5>VueJS</h5>
                         </Col>
                         <Col xs='10' lg='5' className='projects-card-mini text-center mt-3' role="listitem">
-                            <h4>Q+ CREATIVES</h4>
-                            <a href="https://creativesqplus.netlify.app/" target="_blank">
-                                <img src="https://res.cloudinary.com/depxadgb3/image/upload/v1702501244/Captura_de_pantalla_2023-12-13_213208_buczlc.png" alt="COMPI ROOMS Project screenshot" role="img" aria-label="COMPI ROOMS Project Screenshot" loading="lazy" />
-                            </a>
-                            <h4>{language === 'ENG' ? 'Developed with:' : 'Desarrollado con:'}</h4>
-                            <h5>ExpressJS - MongoDB</h5>
-                            <h5>ReactJS - NodeJS</h5>
-                        </Col>
-                        <Col xs='10' lg='5' className='projects-card-mini text-center mt-3 happycode-container' role="listitem">
-                            <h4>HAPPYCODE</h4>
-                            <a href="https://happycodev.com" target="_blank">
-                                <img src="https://res.cloudinary.com/dbtmrinwa/image/upload/f_auto,q_auto/syptbzlmriyzea0osmad" alt="HAPPYCODE Project screenshot" role="img" aria-label="HAPPYCODE Project Screenshot" loading="lazy" />
-                            </a>
-                            <h4>{language === 'ENG' ? 'Developed with:' : 'Desarrollado con:'}</h4>
-                            <h5>ReactJS - SASS</h5>
-                        </Col>
-                        <Col xs='10' lg='5' className='projects-card-mini text-center mt-3' role="listitem">
                             <h4>ONLY PIZZAS</h4>
                             <a href="https://onlypizzas.fly.dev/" target="_blank">
                                 <img src="https://res.cloudinary.com/dbtmrinwa/image/upload/t_mini5/uiriutfupwqjhlgwejf7.jpg" alt="ONLY PIZZAS Project screenshot" role="img" aria-label="ONLY PIZZAS Project Screenshot" loading="lazy" />
@@ -71,7 +72,7 @@ const Projects = ({ language }) => {
                         <Col xs='10' lg='5' className='projects-card-mini text-center mt-3' role="listitem">
                             <h4>GHIBLIPEDIA</h4>
                             <a href="https://onlypizzas.fly.dev/" target="_blank">
-                                <img src="https://res.cloudinary.com/dbtmrinwa/image/upload/t_mini5/uiriutfupwqjhlgwejf7.jpg" alt="ONLY PIZZAS Project screenshot" role="img" aria-label="ONLY PIZZAS Project Screenshot" loading="lazy" />
+                                <img src="https://res.cloudinary.com/depxadgb3/image/upload/v1702504659/Captura_de_pantalla_2023-12-13_225646_nenpcq.png" alt="GHIBLIPEDIA Project screenshot" role="img" aria-label="GHIBLIPEDIA Project Screenshot" loading="lazy" />
                             </a>
                             <h4>{language === 'ENG' ? 'Developed with:' : 'Desarrollado con:'}</h4>
                             <h5>ExpressJS - MongoDB</h5>
