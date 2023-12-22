@@ -70,6 +70,14 @@ const Projects = ({ language }) => {
                             <h5>NodeJS - Bootstrap</h5>
                         </Col>
                         <Col xs='10' lg='5' className='projects-card-mini text-center mt-3' role="listitem">
+                            <h4>RODEBRUJAS PORTFOLIO</h4>
+                            <a href="https://rodebrujas.netlify.app/" target="_blank">
+                                <img src="https://res.cloudinary.com/depxadgb3/image/upload/v1703243958/Captura_de_pantalla_2023-12-22_121859_fcebcw.png" alt="RODEBRUJAS Project screenshot" role="img" aria-label="RODEBRUJAS Project Screenshot" loading="lazy" />
+                            </a>
+                            <h4>{language === 'ENG' ? 'Developed with:' : 'Desarrollado con:'}</h4>
+                            <h5>ReactJS - Bootstrap</h5>
+                        </Col>
+                        {/* <Col xs='10' lg='5' className='projects-card-mini text-center mt-3' role="listitem">
                             <h4>GHIBLIPEDIA</h4>
                             <a href="https://onlypizzas.fly.dev/" target="_blank">
                                 <img src="https://res.cloudinary.com/depxadgb3/image/upload/v1702504659/Captura_de_pantalla_2023-12-13_225646_nenpcq.png" alt="GHIBLIPEDIA Project screenshot" role="img" aria-label="GHIBLIPEDIA Project Screenshot" loading="lazy" />
@@ -77,7 +85,7 @@ const Projects = ({ language }) => {
                             <h4>{language === 'ENG' ? 'Developed with:' : 'Desarrollado con:'}</h4>
                             <h5>ExpressJS - MongoDB</h5>
                             <h5>NodeJS - Bootstrap</h5>
-                        </Col>
+                        </Col> */}
                     </Row>
                 </Col>
             </Row>
