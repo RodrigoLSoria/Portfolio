@@ -18,7 +18,10 @@ const Projects = ({ language }) => {
                     <Row className='justify-content-evenly mt-2 mb-4' role="list">
 
                         <Col xs='10' lg='5' className='projects-card-mini text-center mt-3' role="listitem">
-                            <h4>GREENLET</h4>
+                            <div className="git-icon">
+                                <h4>GREENLET </h4>
+                                <a href="https://github.com/RodrigoLSoria/Greenlet-Client" target='_blank'> <img src="./github-mark.png" alt="github icon" className='github-icon' /></a>
+                            </div>
                             <a href="https://greenlet.netlify.app/" target="_blank">
                                 <img src="https://res.cloudinary.com/depxadgb3/image/upload/v1702501244/Captura_de_pantalla_2023-12-10_224905_mfnpoy.png" alt="Greenlet Project screenshot" role="img" aria-label="Greenlet Project Screenshot" loading="lazy" />
                             </a>
@@ -35,7 +38,10 @@ const Projects = ({ language }) => {
                             <h5>ReactJS - SASS</h5>
                         </Col>
                         <Col xs='10' lg='5' className='projects-card-mini text-center mt-3' role="listitem">
-                            <h4>Q+ CREATIVES</h4>
+                            <div className="git-icon">
+                                <h4>Q+ CREATIVES</h4>
+                                <a href="https://github.com/samuelemarino04/Q-support-client" target='_blank'> <img src="./github-mark.png" alt="github icon" className='github-icon' /></a>
+                            </div>
                             <a href="https://creativesqplus.netlify.app/" target="_blank">
                                 <img src="https://res.cloudinary.com/depxadgb3/image/upload/v1702501244/Captura_de_pantalla_2023-12-13_213208_buczlc.png" alt="Q+ Creatives Project screenshot" role="img" aria-label="Q+ Creatives Project Screenshot" loading="lazy" />
                             </a>
@@ -44,7 +50,10 @@ const Projects = ({ language }) => {
                             <h5>ReactJS - NodeJS</h5>
                         </Col>
                         <Col xs='10' lg='5' className='projects-card-mini text-center mt-3' role="listitem">
-                            <h4>COMPI ROOMS</h4>
+                            <div className="git-icon">
+                                <h4>COMPI ROOMS</h4>
+                                <a href="https://github.com/recheitor/Project-Compi-Client" target='_blank'> <img src="./github-mark.png" alt="github icon" className='github-icon' /></a>
+                            </div>
                             <a href="https://compirooms.netlify.app/" target="_blank">
                                 <img src="https://res.cloudinary.com/dbtmrinwa/image/upload/t_mini3/czuemis1mfinxmuhgpbs.jpg" alt="COMPI ROOMS Project screenshot" role="img" aria-label="COMPI ROOMS Project Screenshot" loading="lazy" />
                             </a>
@@ -53,7 +62,10 @@ const Projects = ({ language }) => {
                             <h5>ReactJS - NodeJS</h5>
                         </Col>
                         <Col xs='10' lg='5' className='projects-card-mini text-center mt-3' role="listitem">
-                            <h4>CLASES PIANO MADRID</h4>
+                            <div className="git-icon">
+                                <h4>CLASES PIANO MADRID</h4>
+                                <a href="https://github.com/recheitor/clases-piano-app" target='_blank'> <img src="./github-mark.png" alt="github icon" className='github-icon' /></a>
+                            </div>
                             <a href="https://clasespianomadrid.com" target="_blank">
                                 <img src="https://res.cloudinary.com/dbtmrinwa/image/upload/f_auto,q_auto/cx2khtovhcdsdmcbcns8" alt="CLASES PIANO MADRID Project screenshot" role="img" aria-label="CLASES PIANO MADRID Project Screenshot" loading="lazy" />
                             </a>
@@ -61,7 +73,10 @@ const Projects = ({ language }) => {
                             <h5>VueJS</h5>
                         </Col>
                         <Col xs='10' lg='5' className='projects-card-mini text-center mt-3' role="listitem">
-                            <h4>ONLY PIZZAS</h4>
+                            <div className="git-icon">
+                                <h4>ONLY PIZZAS</h4>
+                                <a href="https://github.com/recheitor/M2Project" target='_blank'> <img src="./github-mark.png" alt="github icon" className='github-icon' /></a>
+                            </div>
                             <a href="https://onlypizzas.fly.dev/" target="_blank">
                                 <img src="https://res.cloudinary.com/dbtmrinwa/image/upload/t_mini5/uiriutfupwqjhlgwejf7.jpg" alt="ONLY PIZZAS Project screenshot" role="img" aria-label="ONLY PIZZAS Project Screenshot" loading="lazy" />
                             </a>
@@ -70,7 +85,10 @@ const Projects = ({ language }) => {
                             <h5>NodeJS - Bootstrap</h5>
                         </Col>
                         <Col xs='10' lg='5' className='projects-card-mini text-center mt-3' role="listitem">
-                            <h4>RODEBRUJAS PORTFOLIO</h4>
+                            <div className="git-icon">
+                                <h4>RODEBRUJAS PORTFOLIO</h4>
+                                <a href="https://github.com/RodrigoLSoria/RodeBrujas-Portfolio" target='_blank'> <img src="./github-mark.png" alt="github icon" className='github-icon' /></a>
+                            </div>
                             <a href="https://rodebrujas.netlify.app/" target="_blank">
                                 <img src="https://res.cloudinary.com/depxadgb3/image/upload/v1703243958/Captura_de_pantalla_2023-12-22_121859_fcebcw.png" alt="RODEBRUJAS Project screenshot" role="img" aria-label="RODEBRUJAS Project Screenshot" loading="lazy" />
                             </a>

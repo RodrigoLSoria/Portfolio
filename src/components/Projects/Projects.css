@@ -5,6 +5,8 @@
     border-radius: 10px;
 }
 
+
+
 .projects-card-mini {
     min-height: 80px;
     background: rgba(216, 217, 254, 0.955);
@@ -15,6 +17,7 @@
     margin: 10px;
 }
 
+
 .projects-card-mini img {
     margin-top: 10px;
     width: 280px;
@@ -23,8 +26,29 @@
 }
 
 .projects-card-mini h4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 10px;
 }
+
+.projects-card-mini h4 a {
+    padding: 0px;
+    margin: 0px;
+}
+
+.git-icon {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.github-icon {
+    height: 25px !important;
+    width: 25px !important;
+    margin-left: 10px;
+}
+
 
 .projects-card-mini h5 {
     margin-top: 10px;
@@ -46,11 +70,15 @@
     color: #43428e;
 }
 
+
+
 @media (max-width: 1401px) {
     .projects-card-mini img {
         width: 240px;
         height: auto;
     }
+
+
 }
 
 @media (max-width: 1270px) {

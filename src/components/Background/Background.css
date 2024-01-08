@@ -42,7 +42,7 @@
 
 .background-card {
     background: linear-gradient(to right, rgba(185, 149, 242, 0.7), transparent);
-    height: 430px;
+    height: 500px;
     box-shadow: 0px 3px 25px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
 }

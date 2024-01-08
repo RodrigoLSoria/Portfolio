@@ -131,13 +131,27 @@ const Background = ({ language }) => {
                                 <h3 role="heading" aria-level="1">
                                     Relevant <span>academic</span> background and <span>career</span> experience
                                 </h3>
+
+
                             ) : (
                                 <h3 role="heading" aria-level="1">
                                     Formación <span>académica</span> y experiencia <span>laboral</span> relevante
                                 </h3>
                             )}
+
                         </Col>
+                        <Row className='qualities-title justify-content-center'>
+                            <Col xs='12' lg='12' className='qualities-title-bottom text-center'>
+                                <h2 role="heading" aria-level="1">
+                                    {language === 'ENG' ? 'To know more please ' : 'PAra saber más por favor '}
+                                    <span>{language === 'ENG' ? <a href="./files/Rodrigo López Soria CV.pdf" download>Download my CV</a>
+                                        : <a href="./files/Rodrigo López Soria CV.pdf" download>Descarga mi CV</a>
+                                    }</span>
+                                </h2>
+                            </Col>
+                        </Row>
                     </Row>
+
                 </Col>
             </Row>
         </>
