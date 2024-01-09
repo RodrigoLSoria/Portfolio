@@ -29,8 +29,24 @@ const Projects = ({ language }) => {
                             <h5>ExpressJS - MongoDB</h5>
                             <h5>ReactJS - NodeJS</h5>
                         </Col>
+                        <Col xs='10' lg='5' className='projects-card-mini text-center mt-3' role="listitem">
+                            <div className="git-icon">
+                                <h4>DEVOPS PROJECT </h4>
+                                <a href="https://github.com/RodrigoLSoria/Final-Project-DevOps" target='_blank'> <img src="./github-mark.png" alt="github icon" className='github-icon' /></a>
+                            </div>
+                            <a href="https://www.canva.com/design/DAF3DCpOgtU/-xcOieWDswhzVyGNLfIEqg/view?utm_content=DAF3DCpOgtU&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank">
+                                <img src="https://res.cloudinary.com/depxadgb3/image/upload/v1704831327/Captura_de_pantalla_2024-01-09_211344_jhu2o7.png" alt="DevOps Project screenshot" role="img" aria-label="DevOps Project Screenshot" loading="lazy" />
+                            </a>
+                            <h4>{language === 'ENG' ? 'Developed with:' : 'Desarrollado con:'}</h4>
+                            <h5>Docker - Kubernetes</h5>
+                            <h5>Terraform - Ansible</h5>
+                            <h5>Prometheus - Grafana</h5>
+                        </Col>
                         <Col xs='10' lg='5' className='projects-card-mini text-center mt-3 happycode-container' role="listitem">
-                            <h4>HAPPYCODE</h4>
+                            <div className="git-icon">
+                                <h4>HAPPYCODE </h4>
+                                <a href=" https://github.com/recheitor/HappyCode-Landing-client" target='_blank'> <img src="./github-mark.png" alt="github icon" className='github-icon' /></a>
+                            </div>
                             <a href="https://happycodev.com" target="_blank">
                                 <img src="https://res.cloudinary.com/dbtmrinwa/image/upload/f_auto,q_auto/syptbzlmriyzea0osmad" alt="HAPPYCODE Project screenshot" role="img" aria-label="HAPPYCODE Project Screenshot" loading="lazy" />
                             </a>
@@ -39,7 +55,7 @@ const Projects = ({ language }) => {
                         </Col>
                         <Col xs='10' lg='5' className='projects-card-mini text-center mt-3' role="listitem">
                             <div className="git-icon">
-                                <h4>Q+ CREATIVES</h4>
+                                <h4>Q+ CREATIVES </h4>
                                 <a href="https://github.com/samuelemarino04/Q-support-client" target='_blank'> <img src="./github-mark.png" alt="github icon" className='github-icon' /></a>
                             </div>
                             <a href="https://creativesqplus.netlify.app/" target="_blank">
