@@ -45,7 +45,7 @@ const Projects = ({ language }) => {
                         <Col xs='10' lg='5' className='projects-card-mini text-center mt-3 happycode-container' role="listitem">
                             <div className="git-icon">
                                 <h4>HAPPYCODE </h4>
-                                <a href=" https://github.com/recheitor/HappyCode-Landing-client" target='_blank'> <img src="./github-mark.png" alt="github icon" className='github-icon' /></a>
+                                <a href="https://github.com/RodrigoLSoria/Happy-Code" target='_blank'> <img src="./github-mark.png" alt="github icon" className='github-icon' /></a>
                             </div>
                             <a href="https://happycodev.com" target="_blank">
                                 <img src="https://res.cloudinary.com/dbtmrinwa/image/upload/f_auto,q_auto/syptbzlmriyzea0osmad" alt="HAPPYCODE Project screenshot" role="img" aria-label="HAPPYCODE Project Screenshot" loading="lazy" />
@@ -68,7 +68,7 @@ const Projects = ({ language }) => {
                         <Col xs='10' lg='5' className='projects-card-mini text-center mt-3' role="listitem">
                             <div className="git-icon">
                                 <h4>COMPI ROOMS</h4>
-                                <a href="https://github.com/recheitor/Project-Compi-Client" target='_blank'> <img src="./github-mark.png" alt="github icon" className='github-icon' /></a>
+                                <a href="https://github.com/RodrigoLSoria/Compis-client" target='_blank'> <img src="./github-mark.png" alt="github icon" className='github-icon' /></a>
                             </div>
                             <a href="https://compirooms.netlify.app/" target="_blank">
                                 <img src="https://res.cloudinary.com/dbtmrinwa/image/upload/t_mini3/czuemis1mfinxmuhgpbs.jpg" alt="COMPI ROOMS Project screenshot" role="img" aria-label="COMPI ROOMS Project Screenshot" loading="lazy" />
@@ -91,7 +91,7 @@ const Projects = ({ language }) => {
                         <Col xs='10' lg='5' className='projects-card-mini text-center mt-3' role="listitem">
                             <div className="git-icon">
                                 <h4>ONLY PIZZAS</h4>
-                                <a href="https://github.com/recheitor/M2Project" target='_blank'> <img src="./github-mark.png" alt="github icon" className='github-icon' /></a>
+                                <a href="https://github.com/RodrigoLSoria/only-pizzas" target='_blank'> <img src="./github-mark.png" alt="github icon" className='github-icon' /></a>
                             </div>
                             <a href="https://onlypizzas.fly.dev/" target="_blank">
                                 <img src="https://res.cloudinary.com/dbtmrinwa/image/upload/t_mini5/uiriutfupwqjhlgwejf7.jpg" alt="ONLY PIZZAS Project screenshot" role="img" aria-label="ONLY PIZZAS Project Screenshot" loading="lazy" />
