@@ -77,7 +77,7 @@ const Projects = ({ language }) => {
                             <h5>ExpressJS - MongoDB</h5>
                             <h5>ReactJS - NodeJS</h5>
                         </Col>
-                        {/* <Col xs='10' lg='5' className='projects-card-mini text-center mt-3' role="listitem">
+                        <Col xs='10' lg='5' className='projects-card-mini text-center mt-3' role="listitem">
                             <div className="git-icon">
                                 <h4>CLASES PIANO MADRID</h4>
                                 <a href="https://github.com/recheitor/clases-piano-app" target='_blank'> <img src="./github-mark.png" alt="github icon" className='github-icon' /></a>
@@ -87,7 +87,7 @@ const Projects = ({ language }) => {
                             </a>
                             <h4>{language === 'ENG' ? 'Developed with:' : 'Desarrollado con:'}</h4>
                             <h5>VueJS</h5>
-                        </Col> */}
+                        </Col>
                         <Col xs='10' lg='5' className='projects-card-mini text-center mt-3' role="listitem">
                             <div className="git-icon">
                                 <h4>ONLY PIZZAS</h4>
