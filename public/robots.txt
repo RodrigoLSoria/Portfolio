@@ -1,0 +1,6 @@
+# start of file
+
+User-agent: *
+Allow: /
+
+Sitemap: https://rodrigolsoria.netlify.app/sitemap.xml
