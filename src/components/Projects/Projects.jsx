@@ -16,7 +16,18 @@ const Projects = ({ language }) => {
                         </Col>
                     </Row>
                     <Row className='justify-content-evenly mt-2 mb-4' role="list">
-
+                        <Col xs='10' lg='5' className='projects-card-mini text-center mt-3' role="listitem">
+                            <div className="git-icon">
+                                <h4>COMFY STORE</h4>
+                                <a href="https://github.com/RodrigoLSoria/typescript-ecommerce" target='_blank'> <img src="./github-mark.png" alt="github icon" className='github-icon' /></a>
+                            </div>
+                            <a href="https://comfy-ecommerce-ts.netlify.app/" target="_blank">
+                                <img src="https://res.cloudinary.com/depxadgb3/image/upload/v1712245171/Captura_de_pantalla_2024-04-04_173824_pvmtwh.png" alt="Comfy store home page screenshot" role="img" aria-label="Comfy store home page screenshot" loading="lazy" />
+                            </a>
+                            <h4>{language === 'ENG' ? 'Developed with:' : 'Desarrollado con:'}</h4>
+                            <h5>TypeScript - ReactJS</h5>
+                            <h5>TailWind - Redux</h5>
+                        </Col>
                         <Col xs='10' lg='5' className='projects-card-mini text-center mt-3' role="listitem">
                             <div className="git-icon">
                                 <h4>GREENLET </h4>
